@@ -1,0 +1,300 @@
+/* responsive por mobile */
+
+@media screen and (max-width:426px) {
+
+    .nav-container {
+        height: 250px;
+        width: 100%;
+
+    }
+
+    .navbar {
+        flex-direction: column;
+        max-width: 300px;
+        height: 300px;
+        align-items: center;
+        justify-content: center;
+        /* margin-top: 40px; */
+        margin-left: 50px;
+        margin-right: 0;
+        padding-top: 100px;
+    }
+
+
+    .nav-image {
+        height: 225px;
+        margin-top: 3rem;
+        gap: 10px;
+    }
+
+    .nav-image img {
+        width: 55px;
+    }
+
+    .nav-image .game-title {
+        font-size: 1.8rem;
+    }
+
+    .navbar-title-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        gap: 1rem;
+        margin-right: 3rem;
+        margin-bottom: 200px;
+
+    }
+
+    /* banner start */
+
+    .banner-container {
+        flex-direction: column-reverse;
+        height: -1000px;
+        margin-top: 100px;
+        gap: 0px;
+    }
+
+    .banner-image {
+        width: 100%;
+        margin: 0;
+    }
+
+    .banner-content {
+        width: 100%;
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    .banner-title {
+        padding-left: 35px;
+
+    }
+    .banner-title h2{
+        font-size: 3rem;
+    }
+
+    .banner-image {
+        margin-top: -60px;
+        margin-bottom: 50px;
+    }
+
+    /* play part */
+
+    .football-header-content {
+        margin-top: 0px;
+        margin-bottom: 0;
+        font-size: 24px;
+    }
+
+    .football-container {
+        margin-top: 440px;
+        margin-bottom: 20px;
+    }
+    .football-container> .football-blog-contant {
+        font-size: 10px;
+        margin-bottom: 30px;
+    }
+    .football-blog-contant{
+        padding-top: 200px;
+        
+    }
+    .football-container>.football-blog-content{
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .football-header-second-line {
+        font-size: 1.6rem;
+       
+    }
+
+    .content-list-container {
+        height: 2050px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1px;
+    }
+
+    .content-sector .footballinside-description {
+        text-align: center;
+        font-size: 12px;
+        padding-top: 1.5rem;
+        padding-left: 0.9rem;
+        padding-right: 0.9rem;
+    }
+    .content-list-container .content-sector .content-sector img{
+        width: 100%;
+    }
+
+    /* play part start */
+
+    .play-container{
+        flex-direction: column;
+      
+    }
+    .play-content{
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0px;
+        margin-right: 0;
+        
+    }
+    .play-title{
+        font-size: 30px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .play-description{
+        margin-left: 0px;
+        font-size: 15px;
+        text-align: center;
+        padding-left: 60px;
+        padding-bottom: 30px;
+    }
+    .play-image{
+        width: 100%;
+        margin-left: 0;  
+    }
+    .play-image img{
+        width: 70%;
+        margin-left: 80px;
+    }
+    .funny{
+        margin-left: 0;
+        width: 30%;
+        margin-top: -100px;
+        margin-left: 10px;
+    }
+    .play-container{
+        margin-top: 0;
+    }
+
+    /* logo part start */
+
+    .logo-container {
+        width: 420px;
+        height: 180px;
+        gap: 0;
+        margin-top: -160px;
+    }
+    
+    .logo-box {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+        margin-left: 0px;
+    }
+
+    .first-logo img {
+        width: 30px;
+        height: 30px;
+    }
+    .des {
+        color: #0B0223;
+        font-size: 5px;
+        font-weight: 600;
+    }
+    .first-logo{
+        height: 35px;
+        width: 80px;
+        margin-top: 15px;
+    }
+    #cartoon-one{
+        margin-left:20px;
+    }
+    #cartoon-two{
+        margin-left: 15px;
+    }
+    #cartoon-three{
+        margin-left: 15px;
+    }
+    #cartoon-four{
+        margin-left:20px; 
+    }
+    #cartoon-five{
+        margin-left: 15px;
+    }
+    #cartoon-six{
+        margin-left: 15px;
+    }
+    #cartoon-seven{
+        margin-left: 20px;
+    }
+    #cartoon-nine{
+        margin-left: 15px;
+    }
+
+    #cartoon-eight{
+        margin-left:20px;
+    }
+
+    /* footer part */
+
+    .footer{
+       width: 420px;
+       height: 700px;
+    }
+    .footer-content{
+        padding-top: 50px;
+    }
+    .title-contant{
+      flex-direction: column;
+    }
+    .title-content{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .last-footer-title{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .link-content a .footer-icon{
+        font-size: 35px;
+    }
+    
+}
+
+
+/* responsive por tablet */
+
+@media screen and (min-width:427px) and (max-width:768px) {
+    
+    .nav-container {
+        height: 200px;
+        width: 750px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        width: 750px;
+        height: 160px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 50px;
+        margin-right: 0;
+        padding-top: 100px;
+    }
+
+    .nav-image {
+        height: 225px;
+        margin-top: 150px;
+        gap: 10px;
+    }
+    .navbar-title-content {
+        /* flex-direction: column; */
+        align-items: center;
+        margin-top: 20px;
+        gap: 1rem;
+        margin-right: 4rem;
+        margin-bottom: 200px;
+    }
+
+    /* banner */
+
+    .banner-container { 
+        height: -1000px;
+        width: 750px;
+        gap: 0px;
+    }
+    .banner-content{
+        width: 750px;
+    }
+}
